@@ -1,0 +1,69 @@
+body, * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background-color: black;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
+.svg {
+    width: 30px;
+    height: 30px;
+    background: none;
+}
+.navbar, #navbarNav, .navbar-collapse, li {
+    background: none;
+    margin: 0 30px;
+}
+.nav-link {
+    color: white;
+}
+.linea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color:  #328998;
+    background: #328998;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 50%;
+}
+header {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    height: auto;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    
+    header {
+        background-size: contain;
+        background-position: top;
+        margin-bottom: 0;
+    }
+    .carousel-indicators li {
+        display: none;
+    }
+    figcaption, .gone {
+        display: none;
+    }
+}
