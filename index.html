@@ -46,25 +46,25 @@
     <header class="container-fluid">
         <div id="rotating_photos" class="carousel slide" data-ride="carousel">
 
-            <ol class="carousel-indicators">
+            <ul class="carousel-indicators">
                 <li data-target="#rotating_photos" data-slide-to="0" class="active"></li>
                 <li data-target="#rotating_photos" data-slide-to="1"></li>
                 <li data-target="#rotating_photos" data-slide-to="2"></li>
-            </ol>
+            </ul>
 
             <div class="carousel-inner" role="listbox">
 
                 <div class="carousel-item item active data-interval=1000">
                     <img class="d-block w-100 h-50 img-responsive" src="assets/img/carousel1.jpg" alt="First slide">
-                    <figcaption class="carousel-caption">Llamas</figcaption>
+                    <figcaption class="carousel-caption"></figcaption>
                 </div>
                 <div class="carousel-item item data-interval=000">
                     <img class="d-block w-100 h-50 img-responsive" src="assets/img/carousel2.jpg" alt="Second slide">
-                    <figcaption class="carousel-caption">Isla de Pascua</figcaption>
+                    <figcaption class="carousel-caption"></figcaption>
                 </div>
                 <div class="carousel-item item data-interval=1000">
                     <img class="d-block w-100 h-50 img-responsive" src="assets/img/carousel3.jpg" alt="Third slide">
-                    <figcaption class="carousel-caption">Pingüinos</figcaption>
+                    <figcaption class="carousel-caption"></figcaption>
                 </div>
             </div>
 
@@ -142,7 +142,7 @@
         </div>
     </section>
     <div class="container">
-        <h2 id="destacados">DESTACADOS</h2>
+        <h4 id="destacados">DESTACADOS</h4>
         <hr class="linea" />
     </div>
     <section class="container">
@@ -185,6 +185,57 @@
         </div>
     </section>
 
+    <section>
+        <h4 id="contacto" class="container">CONTACTO</h4>
+        <p class="text-center">
+          <hr class="linea" />
+    
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+              placeholder="Escribe aquí tu mensaje"></textarea>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg">ENVIAR</button>
+      </section>
+
+    <footer>
+        <div class="container-fluid">
+          <div id="rrss">
+            <ul class="flex-item">
+              <li>
+                <a class="logoText" href="#">VIAJES CHILE</a>
+                <a href="https://github.com/" target="_blank">
+                  <i class="fa-icons fa-brands fa-square-github" aria-hidden="true" data-toggle="tooltip"
+                    data-placement="top" title="GitHub"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com" target="_blank"><i class=" fa-icons fa-brands fa-linkedin"
+                    aria-hidden="true" data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fa-icons fa-brands fa-square-twitter" aria-hidden="true" data-toggle="tooltip"
+                    data-placement="top" title="Twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <i class="fa-icons fab fa-facebook-square fa-2x" aria-hidden="true" data-toggle="tooltip"
+                    data-placement="top" title="Facebook"></i></a>
+              </li>
+          </div>
+          </li>
+          </ul>
+        </div>
+      </footer>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
